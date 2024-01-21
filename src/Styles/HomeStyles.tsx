@@ -145,6 +145,8 @@ const HomeStyles = StyleSheet.create({
         color:'#000',
         fontSize:16
     }
+
+
 });
 
 export default HomeStyles
