@@ -15,8 +15,8 @@ function HomeScreen({route,navigation}) {
             <LinearGradient start={{x: 1, y: 0}} end={{x: 0, y: 0}} colors={['#11751F', '#064557']}
                             style={HomeStyles.ViewOne}>
                 <View style={HomeStyles.ViewTwo}>
-                    <FontAwesomeIcon icon={faBars} style={HomeStyles.faBars} size={32}/>
-                    <FontAwesomeIcon icon={faSignOut} style={HomeStyles.faSignOut} size={32}/>
+                    <FontAwesomeIcon icon={faBars} style={HomeStyles.faBars} size={40}/>
+                    <FontAwesomeIcon icon={faSignOut} style={HomeStyles.faSignOut} size={40}/>
                 </View>
                 <View style={HomeStyles.ViewTwo}>
                     <Image style={HomeStyles.ImageOne} source={imageOne}/>
@@ -43,11 +43,11 @@ function HomeScreen({route,navigation}) {
             </View>
             <View style={HomeStyles.ViewSix}>
                 <TouchableOpacity onPress={()=>{navigation.navigate('Details')}} style={HomeStyles.innerViewOne}>
-                    <Text style={{fontSize: 19, color: '#FFF'}}>YOUR UPLOADS</Text>
+                    <Text style={{fontSize: 22, color: '#FFF'}}>YOUR UPLOADS</Text>
                 </TouchableOpacity>
             </View>
             <View style={HomeStyles.ViewSeven}>
-                <View style={{padding: 5}}>
+                <View style={{padding: 2}}>
                     <ImageBackground source={imageTwo} resizeMode="cover" style={HomeStyles.backgroundImageOne}>
                         <View style={HomeStyles.imageBoxOne}>
                             <Text> Date</Text>
@@ -60,18 +60,18 @@ function HomeScreen({route,navigation}) {
             </View>
             <View style={HomeStyles.ViewEight}>
                 <View style={HomeStyles.innerViewOne}>
-                    <Text style={{fontSize: 19, color: '#FFF'}}>YOUR UPLOADS</Text>
+                    <Text style={{fontSize: 19, color: '#FFF'}}>PURCHASE PRODUCTS</Text>
                 </View>
             </View>
-            <View style={HomeStyles.ViewSeven}>
+            <View style={{...HomeStyles.ViewSeven,marginTop:-10}}>
                 <View style={HomeStyles.boxView}>
                     <View style={HomeStyles.imageBoxThree}>
                         <Text> Date</Text>
                     </View>
                     <View style={HomeStyles.boxViewTwo}>
-                        <Text style={{...HomeStyles.font1}}>PRODUCT NAME</Text>
+                        <Text style={{...HomeStyles.font1,marginLeft:'5%'}}>PRODUCT NAME</Text>
                         <Text style={{...HomeStyles.font1,marginLeft:'10%'}}>02</Text>
-                        <Text style={{...HomeStyles.font1,marginLeft:'15%'}}>RS:1000/=</Text>
+                        <Text style={{...HomeStyles.font1,marginLeft:'20%'}}>RS:1000/=</Text>
                     </View>
                 </View>
             </View>

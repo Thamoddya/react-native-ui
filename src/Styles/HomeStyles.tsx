@@ -14,7 +14,7 @@ const HomeStyles = StyleSheet.create({
         borderBottomLeftRadius:30,
     },
     ViewTwo: {
-        padding: '5%',
+        padding: '3%',
         flexDirection: 'row',
         flexWrap: 'wrap',
     },
@@ -24,12 +24,12 @@ const HomeStyles = StyleSheet.create({
     },
     faSignOut: {
         color: '#FFF',
-        marginLeft:'80%',
+        marginLeft:'77%',
         alignContent:'space-between',
     },
     ImageOne:{
-        width:'35%',
-        height:140,
+        width:'32%',
+        height:135,
         resizeMode:'cover',
         borderRadius:5
     },
@@ -46,10 +46,14 @@ const HomeStyles = StyleSheet.create({
         flexWrap: 'wrap',
         alignSelf:'center',
         alignContent:'flex-end',
-        marginTop:'5%'
+        marginTop:'10%',
+        marginLeft:10,
+        marginRight:10
     },
     ViewFive:{
-        padding: '2%',
+        padding: '3%',
+        marginLeft:10,
+        marginRight:10
     },
     buttonOne: {
         alignItems: 'center',
@@ -59,35 +63,38 @@ const HomeStyles = StyleSheet.create({
         justifyContent:'center',
         color:'#FFF',
         fontWeight:'bold',
-        borderRadius:10
+        borderRadius:6
     },
     TextTwo:{
-        fontSize:18,
+        fontSize:17,
         color:'#000',
         fontWeight:'bold'
     },
     TextThree:{
-        fontSize:12,
+        fontSize:11,
         color:'#000',
         fontWeight:'bold'
     },
     ViewSix:{
-        padding: '1%',
-
+        padding: '2%',
+        marginLeft:10,
+        marginRight:10
     },
     ViewSeven:{
-        padding: '1%',
+        marginLeft:10,
+        marginRight:10,
     },
     innerViewOne:{
-        backgroundColor:'green',
-        padding:15,
+        backgroundColor:'#037035',
+        padding:5,
         textAlign:"center",
         alignItems:"center",
         justifyContent:"center",
+        marginTop:0
     },
     backgroundImageOne:{
         width:'100%',
-        height:200,
+        height:165,
         flexDirection: 'row',
         flexWrap: 'wrap',
     },
@@ -110,12 +117,15 @@ const HomeStyles = StyleSheet.create({
         marginTop:12
     },
     ViewEight:{
-        padding: '1%',
-        height:60
+        marginTop: '3%',
+        height:60,
+        marginLeft:10,
+        marginRight:10
     },
     boxView:{
-        padding:7,
-        backgroundColor:'#D9D9D9'
+        padding:5,
+        backgroundColor:'#D9D9D9',
+        height:120
     },
     imageBoxThree:{
         width:'40%',
@@ -124,7 +134,7 @@ const HomeStyles = StyleSheet.create({
         alignItems:'flex-start',
         margin:5,
         backgroundColor:'#979696',
-        textAlign:'left'
+        textAlign:'left',
     },
     boxViewTwo:{
         flexDirection: 'row',
@@ -133,7 +143,7 @@ const HomeStyles = StyleSheet.create({
     },
     font1:{
         color:'#000',
-        fontSize:19
+        fontSize:16
     }
 });
 
